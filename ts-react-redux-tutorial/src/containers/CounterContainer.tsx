@@ -21,7 +21,7 @@ function CounterContainer() {
   };
 
   const onDecreaseBy = (diff: number) => {
-    dispatch(onDecreaseBy(diff));
+    dispatch(decreaseBy(diff));
   };
 
   return (

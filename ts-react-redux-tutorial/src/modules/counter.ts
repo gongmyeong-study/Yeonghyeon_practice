@@ -38,7 +38,7 @@ function counter(state: CounterState = initialState, action: CounterAction) {
     case INCREASE_BY:
       return { count: state.count + action.payload };
     case DECREASE_BY:
-      return { count: state.count + action.payload };
+      return { count: state.count - action.payload };
     default:
       return state;
   }
