@@ -40,7 +40,7 @@ type TodosState = Todo[];
 
 // 초기값 설정
 const initialState: TodosState = [
-    { id: 1, text: '타입스크립트 배우기', done: true },
+    { id: 1, text: '일요일에 Orangenongjang 회의 참석', done: false },
     { id: 2, text: '타입스크립트와 리덕스 함께 사용하기', done: true },
     { id: 3, text: 'ToDo 리스트 만들기', done: true }
 ];
